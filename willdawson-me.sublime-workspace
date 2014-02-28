@@ -1,0 +1,448 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/scss/main.scss",
+			"settings":
+			{
+				"buffer_size": 518,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/scss/_links.scss",
+			"settings":
+			{
+				"buffer_size": 1343,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 33.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLint: Report (Open Files)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"package control",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"insall p",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/www/sites/new.willdawson/css/scss/vendor/_normalize.scss",
+		"/www/sites/new.willdawson/css/scss/_tables.scss",
+		"/www/sites/new.willdawson/css/scss/bits/_helpers.scss",
+		"/www/sites/new.willdawson/css/scss/_other.scss",
+		"/www/sites/new.willdawson/css/scss/partials/_toolbox.scss",
+		"/www/sites/new.willdawson/example.html",
+		"/www/sites/new.willdawson/css/scss/bits/_mixins.scss",
+		"/www/sites/new.willdawson/css/scss/_typography.scss",
+		"/www/sites/new.willdawson/css/scss/_notifications.scss",
+		"/www/sites/new.willdawson/css/scss/_forms.scss",
+		"/www/sites/new.willdawson/css/scss/_grid.scss",
+		"/www/sites/new.willdawson/js/main.js",
+		"/www/sites/new.willdawson/css/scss/bits/_variables.scss",
+		"/www/sites/new.willdawson/css/scss/_links.scss",
+		"/www/sites/new.willdawson/css/scss/_reset.scss",
+		"/www/sites/new.willdawson/README.md",
+		"/www/sites/new.willdawson/willdawson-me.sublime-project",
+		"/www/sites/new.willdawson/css/scss/modules/_mixins.scss",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/www/sites/new.willdawson/css/scss/_type.scss",
+		"/www/sites/new.willdawson/css/scss/_helpers.scss",
+		"/www/sites/new.willdawson/css/scss/_shame.scss",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/www/sites/new.willdawson/index.html",
+		"/www/sites/new.willdawson/css/scss/_config.scss",
+		"/www/sites/new.willdawson/css/scss/_retina.scss",
+		"/www/sites/new.willdawson/css/scss/_icons.scss",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/www/sites/new.willdawson/css/scss/_mixins.scss",
+		"/www/sites/new.willdawson/css/scss/main.scss",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/User/breakpoint.sublime-snippet",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
+		"/www/sites/new.willdawson/css/main.css",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/www/sites/new.willdawson/css/scss/_print.scss",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/Users/Will/Library/Application Support/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+		"/www/sites/jeffreydarling.wp/adaptive-images.php",
+		"/www/sites/jeffreydarling.wp/.htaccess",
+		"/etc/apache2/extra/httpd-vhosts.conf",
+		"/etc/hosts",
+		"/etc/apache2/httpd.conf",
+		"/usr/local/etc/dnsmasq.conf",
+		"/Users/Will/.bash_profile",
+		"/Users/Will/Downloads/footer.tpl",
+		"/Users/Will/Downloads/tuupola-jquery_lazyload-2cfbdb5/README.textile",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/Library/WebServer/local.willdawson.me/index.html",
+		"/Library/WebServer/local.willdawson.me/style.css",
+		"/private/etc/apache2/extra/httpd-info.conf",
+		"/private/etc/apache2/extra/httpd-default.conf",
+		"/private/etc/apache2/extra/httpd-userdir.conf",
+		"/private/etc/apache2/mime.types",
+		"/private/etc/apache2/magic",
+		"/private/etc/apache2/httpd.conf~previous",
+		"/private/etc/apache2/httpd.conf~",
+		"/private/etc/apache2/httpd.conf.pre-update",
+		"/private/etc/apache2/httpd.conf.bak",
+		"/private/etc/apache2/httpd.conf",
+		"/Library/WebServer/localhost/httpd.conf",
+		"/Users/Will/Downloads/AdminOrders.php",
+		"/Users/Will/Downloads/admin.js",
+		"/Users/Will/Downloads/AdminTab.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/views/layouts/main.blade.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/models/Room.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/controllers/API/API_MeetingController.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/controllers/ExchangeController.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/routes.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/filters.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/models/Resource.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/models/Meeting.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/controllers/API/API_RoomController.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/helpers/GoogleAPI.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/views/rooms/individual.blade.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/views/devices/index.blade.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/views/user/index.blade.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/views/rooms/index.blade.php",
+		"/Users/Will/Documents/Vivant/Roomee/app/views/home/index.blade.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"@include font-size",
+			"font-size",
+			"item",
+			"form",
+			"$padding",
+			"$tertiary-color",
+			"secondary-color",
+			"$text-background",
+			"text-background",
+			"$text-color",
+			"mixin",
+			"sublime",
+			"font-size",
+			"html {",
+			"font-size",
+			"a {",
+			"button,",
+			"form",
+			"li",
+			"ol",
+			"ul",
+			"dl",
+			"script",
+			"src",
+			"	<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js\"></script>\n",
+			"src",
+			"sendErrorImage",
+			"address",
+			"cookie",
+			"token",
+			"currentIndex",
+			"token",
+			"form",
+			"submitFilter",
+			"submitfilter",
+			"Reset",
+			"getE",
+			"submitFilter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/scss/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/scss/_links.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 424.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"project": "willdawson-me.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"exa",
+				"example.html"
+			],
+			[
+				"mix",
+				"css/scss/bits/_mixins.scss"
+			],
+			[
+				"mixi",
+				"css/scss/bits/_mixins.scss"
+			],
+			[
+				"vari",
+				"css/scss/bits/_variables.scss"
+			],
+			[
+				"other",
+				"css/scss/_other.scss"
+			],
+			[
+				"reset",
+				"css/scss/_reset.scss"
+			],
+			[
+				"va",
+				"css/scss/bits/_variables.scss"
+			],
+			[
+				"ex",
+				"example.html"
+			],
+			[
+				"res",
+				"css/scss/_reset.scss"
+			],
+			[
+				"_type",
+				"css/scss/_type.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

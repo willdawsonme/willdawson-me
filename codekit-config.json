@@ -26,6 +26,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/css\/assets\/sp.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/assets\/sp.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/assets\/sp.png",
+      "initialSize" : 6196,
+      "fileType" : 8192
+    },
     "\/css\/scss\/partials\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -37,15 +48,6 @@
       "outputAbbreviatedPath" : "\/css\/scss\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/css\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/css\/scss\/partials\/_ie.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -107,16 +109,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/assets\/sp.png" : {
+    "\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/assets\/sp.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/assets\/sp.png",
-      "initialSize" : 6196,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/scss\/partials\/_print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -197,18 +197,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/scss\/partials\/_icons.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/scss\/partials\/_icons.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/scss\/css\/_icons.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css\/scss\/partials\/_shame.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -218,6 +206,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/scss\/css\/_shame.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/scss\/partials\/_layout.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/scss\/partials\/_layout.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/scss\/css\/_layout.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -245,15 +245,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/scss\/partials\/_layout.scss" : {
+    "\/css\/scss\/partials\/_icons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/scss\/partials\/_layout.scss",
+      "inputAbbreviatedPath" : "\/css\/scss\/partials\/_icons.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/scss\/css\/_layout.css",
+      "outputAbbreviatedPath" : "\/css\/scss\/css\/_icons.css",
       "fileType" : 4,
       "debugStyle" : 0
     }

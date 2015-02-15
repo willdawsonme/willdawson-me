@@ -1,6 +1,231 @@
-.page-wrap {
-    position: relative;
+html, body {
+    overflow-x: hidden; // For full-width header
+}
 
-    width: 90%;
-    margin: 0 auto;
+.page-wrap {
+    width: 85%;
+    margin: 0 7.5%;
+}
+
+.page-title {
+    display: none; // Semantics
+}
+
+header {
+    @extend %clearfix;
+    position: relative;
+    margin: 0 -100%;
+    padding: $padding 100%;
+    background: $primary-color url(assets/triangle.svg) no-repeat bottom;
+    background-size: 4rem auto;
+
+    .logo {
+        background: url(assets/logo.svg) no-repeat;
+        background-size: auto 4rem;
+        display: block;
+        width: 50%;
+        height: 4rem;
+        text-indent: -9999px;
+        float: left;
+
+        &:hover {
+            opacity: .9;
+        }
+    }
+
+    .btn-me {
+        @extend .btn;
+        height: 4rem;
+        width: 4rem;
+        border-color: white;
+        padding: 0;
+        float: right;
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 4.5rem; // Magic Number
+
+        &:hover {
+            background: white;
+            color: $primary-color;
+        }
+    }
+}
+
+/* Me Modal */
+.me {
+    position: absolute;
+    z-index: 10;
+    overflow: auto;
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 0; // Reset section padding
+    text-align: center;
+
+    // Tint
+    &:before {
+        content: "";
+        position: fixed;
+        top: 0; left: 0;
+        z-index: 0;
+        display: block;
+        width: 100%; height: 100%;
+        background: rgba(black,0.5);
+    }
+
+    // Vertical Centering
+    &:after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -0.25em;
+    }
+
+    .inner {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        display: inline-block; /* Vertical Centering */
+        vertical-align: middle; /* Vertical Centering */
+        width: auto;
+        max-width: 85%;
+        min-width: 150px;
+        margin: 5% 0;
+        padding: $padding;
+        border-radius: $br;
+        background: #fff;
+        box-shadow: 0 0 15px rgba(black,0.25);
+        
+        @include breakpoint(baby-bear) {
+            width: 90%;
+            padding: 2rem;
+        }   
+    }
+
+    figure {
+        margin-bottom: 1em;
+
+        // Correcting .lines on image
+        &.lines:after { left: 1em; }
+        &.lines:before { right: 1em; }
+
+        img {
+            width: 100%;
+            max-width: 10rem;
+            border-radius: 50%;
+            vertical-align: middle;
+            display: inline-block;
+        }
+    }
+}
+
+.btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    color: inherit;
+}
+
+.button-group {
+    margin-top: 1.5em;
+
+    [class*="btn"] {
+        margin-top: 0.5em;
+
+        @include breakpoint(baby-bear) {
+            width: 100%;
+        }
+    }
+}
+
+section {
+    padding: $padding 0 0;
+    text-align: center;
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.portfolio-grid {
+    @extend %clearfix;
+    @include grid-container(4);
+    
+    /* Breakpoints */
+    @include breakpoint(mama-bear) { @include grid-container(3); }
+    @include breakpoint(baby-bear) { @include grid-container(2); }
+
+    .image {
+        @include grid-item(4);
+
+        /* Breakpoints */
+        @include breakpoint(mama-bear) {
+            @include grid-item(3);
+            &:nth-child(3) { display: none; }
+        }
+        @include breakpoint(baby-bear) {
+            @include grid-item(2);
+            &:nth-child(3) { display: block; }
+        }
+    }
+}
+
+.image {
+    position: relative;
+    
+    a:before {
+        box-shadow: inset 0 0 10px rgba(black,0.1);
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: $br;
+        transition: all .2s linear;
+    }
+
+    a:hover {
+        &:before {
+            box-shadow: inset 0 0 10px rgba(black,0.2);
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: $br;
+    }
+}
+
+.pre-title {
+    color: $primary-color;
+    font-size: 2.625rem;
+    margin-bottom: 0.2em;
+}
+
+.lines {
+    &:before, &:after {
+        border-top: 1px solid #ccc;
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0.4em;
+        position: relative;
+        width: 10%;
+        min-width: 75px;
+    }
+
+    &:before {
+        right: .5em;
+        margin-left: -9999px;
+    }
+
+    &:after {
+        left: .5em;
+        margin-right: -9999px;
+    }
 }

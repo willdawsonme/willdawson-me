@@ -32,6 +32,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'ThinIcons';
+    src: url('assets/fonts/thin-icons.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* FONT AWESOME CORE
  * -------------------------- */
 [class^="icon-"],
@@ -43,6 +51,12 @@
     -webkit-font-smoothing: antialiased;
     *margin-right: .3em;
 }
+
+[class^="icon-thin-"],
+[class*=" icon-thin-"] {
+    font-family: 'ThinIcons';
+}
+
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
     text-decoration: inherit;
@@ -1427,7 +1441,7 @@ a .icon-flip-vertical:before {
 .icon-linux:before {
     content: "\f17c";
 }
-.icon-dribble:before {
+.icon-dribbble:before {
     content: "\f17d";
 }
 .icon-skype:before {
@@ -1468,4 +1482,32 @@ a .icon-flip-vertical:before {
 }
 .icon-renren:before {
     content: "\f18b";
+}
+
+.icon-thin-dribbble:before {
+    content: "\e71b"
+}
+
+.icon-thin-bookmark:before {
+    content: "\e75b";
+}
+
+.icon-thin-male:before {
+    content: "\e6a6"; // "\e6a5"
+}
+
+.icon-thin-remove:before {
+    content: "\e672";
+}
+
+.icon-thin-glasses:before {
+    content: "\e6de";
+}
+
+.icon-thin-ellipsis-o:before {
+    content: "\e715";
+}
+
+.icon-thin-heart-o:before {
+    content: "\e6d1"
 }

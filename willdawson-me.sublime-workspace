@@ -11,15 +11,23 @@
 			"file": "css/scss/main.scss",
 			"settings":
 			{
-				"buffer_size": 518,
+				"buffer_size": 769,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/scss/_links.scss",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1343,
+				"buffer_size": 2875,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main-ck.js",
+			"settings":
+			{
+				"buffer_size": 286,
 				"line_ending": "Unix"
 			}
 		}
@@ -102,8 +110,14 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/www/sites/willdawson",
+		"/www/sites/willdawson/js"
+	],
 	"file_history":
 	[
+		"/www/sites/willdawson/css/scss/_links.scss",
 		"/www/sites/new.willdawson/css/scss/vendor/_normalize.scss",
 		"/www/sites/new.willdawson/css/scss/_tables.scss",
 		"/www/sites/new.willdawson/css/scss/bits/_helpers.scss",
@@ -259,7 +273,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -268,35 +282,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 518,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								300,
-								300
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/scss/_links.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1343,
+						"buffer_size": 769,
 						"regions":
 						{
 						},
@@ -310,11 +296,69 @@
 						"settings":
 						{
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 424.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2625,
+								2625
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1041.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main-ck.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -432,6 +476,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},

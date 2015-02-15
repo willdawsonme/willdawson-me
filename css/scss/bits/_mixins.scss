@@ -2,11 +2,11 @@
    ========================================================================= */
 @mixin font-stack {
     font-family: Avenir, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @mixin font-stack-headers {
-    font-weight: 600;
+    font-weight: 300;
 }
 
 /* Media Queries (http://css-tricks.com/media-queries-sass-3-2-and-codekit)
@@ -27,14 +27,18 @@
 
 /* Grids
    ========================================================================= */
-@mixin grid-container {
-    margin-left: -3%;
+@mixin grid-item($columns, $span: 1) {
+   $spacing: 8%/$columns;
+
+   width: 100%/$columns*$span - $spacing;
+   float: left;
+   margin-left: $spacing;
+   margin-bottom: $spacing;
 }
 
-@mixin grid-item($span, $columns: 4) {
-    width: 100%*($span/$columns) - 3%;
-    float: left;
-    margin-left: 3%;
+@mixin grid-container($columns) {
+    $spacing: 8%/$columns;
+    margin-left: -$spacing;
 }
 
 /* Rem Sizing (http://hugogiraudel.com/2013/03/18/ultimate-rem-mixin)
